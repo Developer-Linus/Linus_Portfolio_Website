@@ -10,11 +10,10 @@ export default function DynamicTyping() {
 
   const skills = [
     "Software Engineer",
-    "Frontend Developer",
+    "API Architect",
     "Backend Developer",
     "Full Stack Developer",
-    "React Specialist",
-    "JavaScript Expert",
+    "Python Savvy",
   ]
 
   useEffect(() => {

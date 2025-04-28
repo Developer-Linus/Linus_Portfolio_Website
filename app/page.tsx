@@ -41,8 +41,9 @@ export default function Portfolio() {
                   <DynamicTyping />
                 </div>
                 <p className="mb-8 text-lg text-slate-300">
-                  A passionate software engineer with expertise in building robust and scalable applications. I love
-                  solving complex problems and creating elegant solutions.
+                  I am a dedicated software engineer committed to building fast, scalable, and user-centered solutions.
+                  I specialize in transforming users' pain points into memorable experiences through thoughtful design, efficient code, 
+                  and a focus on long-term scalability.
                 </p>
                 <div className="flex space-x-4">
                   <Link
@@ -98,13 +99,13 @@ export default function Portfolio() {
                 <h3 className="mb-6 text-center text-2xl font-semibold">Technical Skills</h3>
                 <div className="grid gap-4 sm:grid-cols-2">
                   {[
-                    { name: "JavaScript", level: 90 },
-                    { name: "React", level: 85 },
+                    { name: "JavaScript", level: 75 },
                     { name: "Node.js", level: 80 },
-                    { name: "TypeScript", level: 75 },
-                    { name: "Next.js", level: 85 },
                     { name: "Python", level: 70 },
                     { name: "SQL", level: 75 },
+                    { name: "Django", level: 80 },
+                    { name: "RESTful APIs", level: 85 },
+                    { name: "Unit Testing", level: 70 },
                     { name: "Git", level: 85 },
                   ].map((skill) => (
                     <div key={skill.name} className="mb-4">
